@@ -1,0 +1,9 @@
+source: src
+
+title: Demo
+description: test
+
+markdown: kramdown
+collections:
+  products:
+    output: true
