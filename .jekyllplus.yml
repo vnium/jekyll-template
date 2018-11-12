@@ -55,7 +55,7 @@ collections:
         label: Body
         type: markdown
         autoresize: true
-  product:
+  products:
     name: Products
     fields:
       - name: published
