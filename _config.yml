@@ -5,3 +5,9 @@ markdown: kramdown
 collections:
   products:
     output: true
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: true
+  startings: [head, body]
