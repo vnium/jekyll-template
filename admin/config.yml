@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: vnium/jekyll-template
-  branch: master
+  branch: gh-pages
   site_domain: jekyll-template.templateplay.com
 
 media_folder: "images/uploads"
