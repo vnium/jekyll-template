@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: vnium/jekyll-template
+  branch: master
+  site_domain: jekyll-template.templateplay.com
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "products" # Used in routes, e.g., /admin/collections/blog
+    label: "products" # Used in the UI
+    folder: "_products/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
