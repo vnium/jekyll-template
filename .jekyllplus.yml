@@ -1,6 +1,6 @@
 folders:
-  file: assets
-  image: assets/img
+  file: /assets
+  image: /assets/img
 collections:
   pages:
     name: Pages

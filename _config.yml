@@ -1,6 +1,8 @@
 title: Demo
 description: test
 
+baseurl: ""
+
 markdown: kramdown
 collections:
   products:
