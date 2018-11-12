@@ -1,6 +1,9 @@
 title: Demo
 description: test
 
+plugins:
+  - jekyll-admin
+
 baseurl: ""
 
 markdown: kramdown
@@ -13,3 +16,10 @@ compress_html:
   endings: all
   profile: false
   startings: [head, body]
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
