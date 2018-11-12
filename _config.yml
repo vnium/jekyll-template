@@ -16,34 +16,3 @@ compress_html:
   endings: all
   profile: false
   startings: [head, body]
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-
-prose:
-  rooturl: ''
-  siteurl: 'jekyll-template.templateplay.com'
-  media: 'media'
-  ignore:
-    - index.html
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "published"
-      - name: "name"
-        field:
-          element: "text"
-          label: "name"
-      - name: "image"
-        field:
-          element: "text"
-          label: "image"
